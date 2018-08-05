@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+body {
+  font-family: "Lato", sans-serif; }
+  body .first-section {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white; }
+    body .first-section nav img {
+      margin-top: 1.5rem;
+      margin-left: 8rem; }
+    body .first-section nav div {
+      padding-top: 2rem;
+      padding-right: 4rem; }
+      body .first-section nav div a {
+        text-decoration: none;
+        font-weight: 800;
+        color: white;
+        margin: 10px; }
+    body .first-section header {
+      text-align: center;
+      margin-top: 11rem;
+      margin-bottom: 20rem;
+      color: white; }
+      body .first-section header h1 {
+        font-size: 4em;
+        font-weight: 700; }
+  body main {
+    margin-top: 5rem; }
+    body main header {
+      text-align: center; }
+      body main header p {
+        color: #a39e9e; }
+    body main section {
+      margin: 0 auto; }
+      body main section div {
+        border: 1px solid rgba(163, 158, 158, 0.2);
+        border-radius: 4px;
+        margin: 15px 10px; }
+        body main section div img {
+          width: 270px;
+          height: 110px;
+          border-radius: 1%; }
+        body main section div p .place {
+          font-weight: bold; }
+        body main section div p span {
+          padding: 0.6rem; }
+  body .customer-section {
+    margin-top: 5em; }
+    body .customer-section header {
+      text-align: center; }
+      body .customer-section header p {
+        color: #a39e9e; }
+    body .customer-section article {
+      margin-top: 3rem;
+      text-align: center; }
+      body .customer-section article div {
+        margin-right: 2rem; }
+        body .customer-section article div img {
+          border-radius: 50%;
+          margin-bottom: 1rem; }
+        body .customer-section article div h5 {
+          font-weight: 800;
+          margin-bottom: 1rem; }
+        body .customer-section article div p {
+          color: rgba(163, 158, 158, 0.8);
+          font-size: 0.9rem; }
+  body footer {
+    margin-top: 6em;
+    font-size: 0.9rem;
+    color: rgba(163, 158, 158, 0.8); }
+    body footer nav a {
+      margin-right: 1em;
+      text-decoration: none;
+      color: rgba(163, 158, 158, 0.8); }
+    body footer nav :hover {
+      text-decoration: none; }

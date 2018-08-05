@@ -1,0 +1,111 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+$m-bottom: 1rem;
+body {
+    font-family: "Lato", sans-serif;
+    .first-section {
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        color: white;
+        nav {
+            img {
+                margin-top: 1.5rem;
+                margin-left: 8rem;
+            }
+            div {
+                padding-top: 2rem;
+                padding-right: 4rem;
+                a {
+                    text-decoration: none;
+                    font-weight: 800;
+                    color: white;
+                    margin: 10px;
+                }
+            }
+        }
+        header {
+            text-align: center;
+            margin-top: 11rem;
+            margin-bottom: 20rem;
+            color: white;
+            h1 {
+                font-size: 4em;
+                font-weight: 700;
+            }
+        }
+    }
+    main {
+        margin-top: 5rem;
+        header {
+            text-align: center;
+            p {
+                color: rgb(163, 158, 158);
+            }
+        }
+        section {
+            margin: 0 auto;
+            div {
+                border: 1px solid rgba(163, 158, 158, 0.2);
+                border-radius: 4px;
+                margin: 15px 10px;
+                img {
+                    width: 270px;
+                    height: 110px;
+                    border-radius: 1%;
+                }
+                p {
+                    .place {
+                        font-weight: bold;
+                    }
+                    span {
+                        padding: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+    .customer-section {
+        margin-top: 5em;
+        header {
+            text-align: center;
+            p {
+                color: rgb(163, 158, 158);
+            }
+        }
+        article {
+            margin-top: 3rem;
+            text-align: center;
+            div {
+                margin-right: 2rem;
+                img {
+                    border-radius: 50%;
+                    margin-bottom: $m-bottom;
+                }
+                h5 {
+                    font-weight: 800;
+                    margin-bottom: $m-bottom;
+                }
+                p {
+                    color: rgba(163, 158, 158, 0.8);
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 6em;
+        font-size: 0.9rem;
+        color: rgba(163, 158, 158, 0.8);
+        nav {
+            a {
+                margin-right: 1em;
+                text-decoration: none;
+                color: rgba(163, 158, 158, 0.8);
+            }
+             :hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
